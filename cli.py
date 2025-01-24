@@ -4,7 +4,7 @@ import requests
 from dotenv import load_dotenv
 import json
 
-from raydium.coin import get_coin_data
+from raydium.raydium import get_coin_data
 from api.api import get_status
 from shared.settings import get_settings, get_version
 from account.account import get_account_balance, check_rate_limit
